@@ -1,0 +1,40 @@
+{
+  "name": "event-sourcing-example",
+  "version": "1.0.0",
+  "description": "Event Sourcing Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "lint": "eslint account accountLog app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RisingStack/event-sourcing-example.git"
+  },
+  "author": "RisingStack, Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RisingStack/event-sourcing-example/issues"
+  },
+  "homepage": "https://github.com/RisingStack/event-sourcing-example#readme",
+  "devDependencies": {
+    "eslint": "3.12.2",
+    "eslint-config-airbnb-base": "11.0.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-promise": "3.4.0"
+  },
+  "dependencies": {
+    "@octokit/rest": "^15.15.1",
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "colors": "^1.2.1",
+    "commander": "^2.15.1",
+    "configstore": "^4.0.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^5.2.0",
+    "lodash": "^4.17.4",
+    "lowdb": "^1.0.0",
+    "pad": "^2.0.3"
+  }
+}
